@@ -1,0 +1,8 @@
+print(0)
+n = 1
+m = 1
+for i in range(1, 100):
+    print(n)          #prints next value in fibonacci sequence
+    print(m / n)      #prints ratio of current value to previous value
+    m += n
+    n = m - n
